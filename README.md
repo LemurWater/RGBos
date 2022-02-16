@@ -1,2 +1,5 @@
 # RGBos
- Sistema Operativo RGB
+Sistema Operativo RGB
+
+❤️💚💙os
+ 

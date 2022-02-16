@@ -1,0 +1,2 @@
+# RGBos
+ Sistema Operativo RGB

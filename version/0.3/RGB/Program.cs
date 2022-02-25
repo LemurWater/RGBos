@@ -11,18 +11,22 @@ using System.IO;
 
 namespace RGB
 {
-    internal class Program
+    class Program
     {
-        public static byte tamano_x, tamano_y;
+        static byte tamano_x, tamano_y;
 
-        public string[] test = { "aaaaaaaaaaaaaa", "bbbbbbbbbbbbbb" };
-        public char char_marco = '█';
+        static string[] test = { "aaaaaaaaaaaaaa", "bbbbbbbbbbbbbb" };
+        static char char_marco = '█';
 
-        public Exception exception;
+        static Exception exception;
         static void Main(string[] args)
         {
             try
             {
+
+
+
+
                 Inicio02.Imprimir();
 
 
@@ -59,7 +63,7 @@ namespace RGB
                 Console.Write("B");
                 Console.BackgroundColor = ConsoleColor.White;
                 Console.ForegroundColor = ConsoleColor.Black;
-                Console.Write(" - Ver 0.2r");
+                Console.Write(" - Ver 0.3g");
                 Console.WriteLine(" - - - - - - - - -\n");
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.White;
@@ -158,11 +162,11 @@ namespace RGB
             }
         }
 
-        void Guardar_Acciones(string texto)
+        private void Guardar_Acciones(string texto)
         {
             
         }
-        public void Marco(string linea)
+        static void Marco(string linea)
         {
             //Texto
             byte relleno = (byte)(linea.Length - 4);
@@ -173,7 +177,7 @@ namespace RGB
             }
             Console.Write(char_marco + " " + linea + espacio + " " + char_marco + "\n");
         }
-        public void Marco(string [] lineas) // █▓▒░
+        static void Marco(string [] lineas) // █▓▒░
         {
             try
             {         

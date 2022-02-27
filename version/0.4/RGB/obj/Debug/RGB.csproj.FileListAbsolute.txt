@@ -1,0 +1,36 @@
+C:\Users\Alice\Documents\Projects Visual Studio\RGB\obj\Debug\RGB.csproj.AssemblyReference.cache
+C:\Users\Alice\Documents\Projects Visual Studio\RGB\obj\Debug\RGB.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alice\Documents\Projects Visual Studio\RGB\obj\Debug\RGB.csproj.CoreCompileInputs.cache
+C:\Users\Alice\Documents\Projects Visual Studio\RGB\bin\Debug\RGB.exe.config
+C:\Users\Alice\Documents\Projects Visual Studio\RGB\bin\Debug\RGB.exe
+C:\Users\Alice\Documents\Projects Visual Studio\RGB\bin\Debug\RGB.pdb
+C:\Users\Alice\Documents\Projects Visual Studio\RGB\obj\Debug\RGB.exe
+C:\Users\Alice\Documents\Projects Visual Studio\RGB\obj\Debug\RGB.pdb
+C:\Users\Alice\Documents\Projects Visual Studio\RGB Master\0.2\RGB\obj\Debug\RGB.csproj.AssemblyReference.cache
+C:\Users\Alice\Documents\Projects Visual Studio\RGB Master\0.2\RGB\obj\Debug\RGB.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alice\Documents\Projects Visual Studio\RGB Master\0.2\RGB\obj\Debug\RGB.csproj.CoreCompileInputs.cache
+C:\Users\Alice\Documents\Projects Visual Studio\RGB Master\0.2\RGB\obj\Debug\RGB.exe
+C:\Users\Alice\Documents\Projects Visual Studio\RGB Master\0.2\RGB\obj\Debug\RGB.pdb
+C:\Users\Alice\Documents\Projects Visual Studio\RGB Master\0.2\RGB\bin\Debug\RGB.exe.config
+C:\Users\Alice\Documents\Projects Visual Studio\RGB Master\0.2\RGB\bin\Debug\RGB.exe
+C:\Users\Alice\Documents\Projects Visual Studio\RGB Master\0.2\RGB\bin\Debug\RGB.pdb
+X:\=Projects GitHub\GitHub\version\0.3\RGB\obj\Debug\RGB.csproj.AssemblyReference.cache
+X:\=Projects GitHub\GitHub\version\0.3\RGB\obj\Debug\RGB.csproj.SuggestedBindingRedirects.cache
+X:\=Projects GitHub\GitHub\version\0.3\RGB\obj\Debug\RGB.Interfaces.Interface_Default.resources
+X:\=Projects GitHub\GitHub\version\0.3\RGB\obj\Debug\RGB.csproj.GenerateResource.cache
+X:\=Projects GitHub\GitHub\version\0.3\RGB\obj\Debug\RGB.csproj.CoreCompileInputs.cache
+X:\=Projects GitHub\GitHub\version\0.3\RGB\obj\Debug\RGB.exe
+X:\=Projects GitHub\GitHub\version\0.3\RGB\obj\Debug\RGB.pdb
+X:\=Projects GitHub\GitHub\version\0.3\RGB\bin\Debug\RGB.exe.config
+X:\=Projects GitHub\GitHub\version\0.3\RGB\bin\Debug\RGB.exe
+X:\=Projects GitHub\GitHub\version\0.3\RGB\bin\Debug\RGB.pdb
+X:\=Projects GitHub\GitHub\version\0.4\RGB\bin\Debug\RGB.exe.config
+X:\=Projects GitHub\GitHub\version\0.4\RGB\bin\Debug\RGB.exe
+X:\=Projects GitHub\GitHub\version\0.4\RGB\bin\Debug\RGB.pdb
+X:\=Projects GitHub\GitHub\version\0.4\RGB\obj\Debug\RGB.csproj.AssemblyReference.cache
+X:\=Projects GitHub\GitHub\version\0.4\RGB\obj\Debug\RGB.csproj.SuggestedBindingRedirects.cache
+X:\=Projects GitHub\GitHub\version\0.4\RGB\obj\Debug\RGB.Interfaces.Interface_Default.resources
+X:\=Projects GitHub\GitHub\version\0.4\RGB\obj\Debug\RGB.csproj.GenerateResource.cache
+X:\=Projects GitHub\GitHub\version\0.4\RGB\obj\Debug\RGB.csproj.CoreCompileInputs.cache
+X:\=Projects GitHub\GitHub\version\0.4\RGB\obj\Debug\RGB.exe
+X:\=Projects GitHub\GitHub\version\0.4\RGB\obj\Debug\RGB.pdb

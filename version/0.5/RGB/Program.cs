@@ -64,7 +64,7 @@ namespace RGB
                 Console.Write("B");
                 Console.BackgroundColor = ConsoleColor.White;
                 Console.ForegroundColor = ConsoleColor.Black;
-                Console.Write(" - Ver 0.4b");
+                Console.Write(" - Ver 0.5b");
                 Console.WriteLine(" - - - - - - - - -\n");
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.White;

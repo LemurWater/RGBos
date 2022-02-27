@@ -20,14 +20,19 @@ namespace RGB
         static string[] test = { "aaaaaaaaaaaaaa", "bbbbbbbbbbbbbb" };
         static char char_marco = '█';
 
-        static Exception exception;
-
         string[] txt_esp = { "Ingrese el nombre del nuevo usuario", "Ingrese la contrasena" };
         string[] txt_ing = { "Enter a name for the new user", "Create new password" };
         string[] txt_kor;
         public static List<Usuario> l_usuarios = new List<Usuario>();
         static public byte tamano_x = 80, tamano_y = 28;
         public static string tmp_clave;
+
+
+        //Forms
+        static Interface_Default form_interface = new Interface_Default();
+        static Interface_Escritorio form_escritorio = new Interface_Escritorio();
+        static bool crear_interface = true;
+        static bool crear_escritorio = true;
 
 
         static void Main(string[] args)
@@ -48,8 +53,6 @@ namespace RGB
                 //public enum Idiomaa { Espanol, Ingles, Coreano };
                 //public Idiomaa idioma;
 
-                // Console.WriteLine("\nRGB Ver 0.1a");
-
 
                 Console.BackgroundColor = ConsoleColor.White;
                 Console.Write(" ");
@@ -61,14 +64,15 @@ namespace RGB
                 Console.Write("B");
                 Console.BackgroundColor = ConsoleColor.White;
                 Console.ForegroundColor = ConsoleColor.Black;
-                Console.Write(" - Ver 0.4a");
+                Console.Write(" - Ver 0.7a");
                 Console.WriteLine(" - - - - - - - - -\n");
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.White;
 
                 if (l_usuarios.Count == 0)
                 {
-                    Usuario nuevo_usuario = new Usuario(000001, "RGB", "RGB", DateTime.Now, DateTime.Now, 5, 0);
+
+                     Usuario nuevo_usuario = new Usuario(000001, "RGB", "RGB", DateTime.Now, DateTime.Now, 5, 0, "test_info", "default_test");//000001, "RGB", "RGB", DateTime.Now, DateTime.Now, 5, 0, l_a, "default"
 
                     Console.BackgroundColor = ConsoleColor.Black;
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -76,7 +80,7 @@ namespace RGB
 
                     Console.BackgroundColor = ConsoleColor.White;
                     Console.ForegroundColor = ConsoleColor.Black;
-                    nuevo_usuario.nombre = Console.ReadLine();
+                    nuevo_usuario.Nombre = Console.ReadLine();
 
                     Console.BackgroundColor = ConsoleColor.Black;
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -84,7 +88,7 @@ namespace RGB
 
                     Console.BackgroundColor = ConsoleColor.White;
                     Console.ForegroundColor = ConsoleColor.Black;
-                    nuevo_usuario.clave = Console.ReadLine();
+                    nuevo_usuario.Clave = Console.ReadLine();
 
                     Console.BackgroundColor = ConsoleColor.Black;
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
@@ -93,7 +97,7 @@ namespace RGB
                     Console.BackgroundColor = ConsoleColor.White;
                     Console.ForegroundColor = ConsoleColor.Black;
                     tmp_clave = Console.ReadLine();
-                    if (nuevo_usuario.clave != tmp_clave)
+                    if (nuevo_usuario.Clave != tmp_clave)
                     {
                         Console.WriteLine("\nError! Las contrasenas no son iguales!");
                     }
@@ -120,13 +124,32 @@ namespace RGB
                 throw new Exception("Error en metodo Main" + e);
             }
         }
-
+        public static void usar_escritorio()
+        {
+            try
+            {
+                Console.WriteLine("\n\nEscritorio\n");
+                if (crear_escritorio)
+                {
+                    form_escritorio.ShowDialog();
+                    crear_escritorio = false;
+                }
+                //               
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error metodo usar_escritorio " + ex);
+            }
+        }
         static void acceder_usuario()
         {
             try
             {
-                Interface_Default form_interface = new Interface_Default();
-                Application.Run(form_interface);
+                if(crear_interface)
+                {
+                    Application.Run(form_interface);
+                    crear_interface = false;
+                }
                 //
 
                 // Acceder
@@ -138,7 +161,7 @@ namespace RGB
                 {
                     Console.BackgroundColor = ConsoleColor.DarkYellow;
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine("#" + contador + " - " + u.nombre);
+                    Console.WriteLine("#" + contador + " - " + u.Nombre);
                 }
 
                 Console.BackgroundColor = ConsoleColor.White;
@@ -146,16 +169,16 @@ namespace RGB
                 byte.TryParse(Console.ReadLine(), out byte eleccion);
                 for (int i = 0; i < eleccion; i++)
                 {
-                    tmp_clave = l_usuarios[i + 1].clave;
+                    tmp_clave = l_usuarios[i + 1].Clave;
                 }
                 //Preguntar Clave
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
-                Console.WriteLine("\nIngrese la clave para " + l_usuarios[eleccion].nombre);
+                Console.WriteLine("\nIngrese la clave para " + l_usuarios[eleccion].Nombre);
 
                 Console.BackgroundColor = ConsoleColor.White;
                 Console.ForegroundColor = ConsoleColor.Black;
-                if (Console.ReadLine() != l_usuarios[eleccion].clave)
+                if (Console.ReadLine() != l_usuarios[eleccion].Clave)
                 {
                     Console.WriteLine("\nError! La clave no es correcta");
                     byte bloqueo_contador = 1;
@@ -165,7 +188,7 @@ namespace RGB
                     Console.BackgroundColor = ConsoleColor.Black;
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
 
-                    Console.WriteLine("\nBienvenido " + l_usuarios[eleccion].nombre + "    -    Fecha actual:  " + DateTime.Now.ToString());
+                    Console.WriteLine("\nBienvenido " + l_usuarios[eleccion].Nombre + "    -    Fecha actual:  " + DateTime.Now.ToString());
 
                     Console.BackgroundColor = ConsoleColor.White;
                     Console.ForegroundColor = ConsoleColor.Black;
@@ -173,7 +196,7 @@ namespace RGB
             }
             catch (Exception ex)
             {
-                
+                throw new Exception("Error metodo acceder_usuario " + ex);
             }
         }
 
@@ -186,14 +209,21 @@ namespace RGB
         }
         static void Marco(string linea)
         {
-            //Texto
-            byte relleno = (byte)(linea.Length - 4);
-            string espacio = "";
-            for (byte i = 0; i < (tamano_x - 8 - relleno); i++)
+            try
             {
-                espacio += " ";
+                //Texto
+                byte relleno = (byte)(linea.Length - 4);
+                string espacio = "";
+                for (byte i = 0; i < (tamano_x - 8 - relleno); i++)
+                {
+                    espacio += " ";
+                }
+                Console.Write(char_marco + " " + linea + espacio + " " + char_marco + "\n");
             }
-            Console.Write(char_marco + " " + linea + espacio + " " + char_marco + "\n");
+            catch (Exception ex)
+            {
+                throw new Exception("Error metodo Marco " + ex);
+            }
         }
         static void Marco(string[] lineas) // █▓▒░
         {

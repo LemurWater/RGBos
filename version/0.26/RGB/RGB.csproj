@@ -47,12 +47,19 @@
   <ItemGroup>
     <Compile Include="ClasesSistema\Escritorio.cs" />
     <Compile Include="ClasesSistema\Inicio.cs" />
+    <Compile Include="ClasesSistema\Programas\Utilidades\Interface_Calculadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClasesSistema\Programas\Utilidades\Interface_Calculadora.Designer.cs">
+      <DependentUpon>Interface_Calculadora.cs</DependentUpon>
+    </Compile>
     <Compile Include="ClasesSistema\Programas\Utilidades\Interface_Prog_Texto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ClasesSistema\Programas\Utilidades\Interface_Prog_Texto.Designer.cs">
       <DependentUpon>Interface_Prog_Texto.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClasesSistema\Programas\Utilidades\Programa_Calculadora.cs" />
     <Compile Include="ClasesSistema\Programas\Utilidades\Programa_Texto.cs" />
     <Compile Include="ClasesSistema\Sistema.cs" />
     <Compile Include="ClasesSistema\Usuarios\Avatar.cs" />
@@ -109,6 +116,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ClasesSistema\Programas\Utilidades\Interface_Calculadora.resx">
+      <DependentUpon>Interface_Calculadora.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ClasesSistema\Programas\Utilidades\Interface_Prog_Texto.resx">
       <DependentUpon>Interface_Prog_Texto.cs</DependentUpon>
     </EmbeddedResource>

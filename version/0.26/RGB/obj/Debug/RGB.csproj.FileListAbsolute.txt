@@ -294,3 +294,20 @@ X:\=Projects GitHub\GitHub\version\0.25\RGB\obj\Debug\RGB.csproj.GenerateResourc
 X:\=Projects GitHub\GitHub\version\0.25\RGB\obj\Debug\RGB.csproj.CoreCompileInputs.cache
 X:\=Projects GitHub\GitHub\version\0.25\RGB\obj\Debug\RGB.exe
 X:\=Projects GitHub\GitHub\version\0.25\RGB\obj\Debug\RGB.pdb
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\bin\Debug\RGB.exe.config
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\bin\Debug\RGB.exe
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\bin\Debug\RGB.pdb
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.csproj.AssemblyReference.cache
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.ClasesSistema.Programas.Utilidades.Interface_Calculadora.resources
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.ClasesSistema.Programas.Utilidades.Interface_Prog_Texto.resources
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.Interfaces.Interface_Acceso.resources
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.Interfaces.Interface_Clave.resources
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.Interfaces.Interface_Escritorio.resources
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.Interfaces.Interface_Nuevo_Usuario.resources
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.Prueba.Embeded_Games.resources
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.Prueba.Prueba_Juego.resources
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.csproj.GenerateResource.cache
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.csproj.CoreCompileInputs.cache
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.exe
+C:\Users\Alice\Documents\GitHub\RGBos\version\0.26\RGB\obj\Debug\RGB.pdb

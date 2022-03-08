@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e192df3b-d19f-425a-942a-7a5f41f5e7be": {
+      "ProjectGuid": "e192df3b-d19f-425a-942a-7a5f41f5e7be",
+      "DisplayName": "RGB",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

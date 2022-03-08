@@ -33,7 +33,7 @@ namespace RGB.ClasesSistema.Programas.Utilidades
         }
         public long Restar(long a, long b)
         {
-
+            return Resultado;
         }
     }
 }

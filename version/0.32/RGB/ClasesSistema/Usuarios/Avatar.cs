@@ -8,12 +8,13 @@ using System.Drawing;
 
 namespace RGB.ClasesSistema.Usuarios
 {
+    //Enums
+    public enum enum_Chars { 뮤, 봇, 모, 수, 호 };
+
+
+    //Objecto
     public class Avatar
     {
-        private enum enum_Chars { 뮤, 봇, 모, 수, 호 };
-
-
-
         private char caracter = '뮤';
 
         private Color color_caracter; // Random
@@ -23,7 +24,7 @@ namespace RGB.ClasesSistema.Usuarios
         private ConsoleColor cons_color_caracter;
         private ConsoleColor cons_color_fondo;
 
-
+        //Constructores
         public Avatar()
         {
             Random tmp_rnd = new Random();
@@ -92,7 +93,7 @@ namespace RGB.ClasesSistema.Usuarios
             Color_caracter_con = color_caracter_con;
         }
 
-
+        //Accesores
         public char Caracter
         {
             get

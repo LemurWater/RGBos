@@ -12,58 +12,42 @@ using RGB.ClasesSistema.Programas.Utilidades;
 
 namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    ☒✗✘
 {
-    public partial class Interface_Calculadora : Form
+    public partial class Interface_Prog_Calculadora : Form // TEST
     {
         //Atributos
-
         public string version = "0.1";
 
 
         public char fraccion = '.';          // , . 
         private bool fraccion_control = false;
 
-        private double valor_a;
-        private double valor_b;
         private double resultado;
 
         private List<double> memoria = new List<double>();
 
+        private bool valor_ab = true;
 
-        public Interface_Calculadora()
+        //Constructores
+        public Interface_Prog_Calculadora()
         {
             InitializeComponent();
 
             label_version.Text = "version " + version; 
         }
 
-        public Interface_Calculadora(double valor_a, double valor_b, double resultado, List<double> memoria)
+        public Interface_Prog_Calculadora(double valor_a, double valor_b, double resultado, List<double> memoria)
         {
-            Valor_a = valor_a;
-            Valor_b = valor_b;
-            Resultado = resultado;
-            Memoria = memoria;
+
         }
 
-
-        public double Valor_a
-        {
-            get
-            {
-                return valor_a;
-            }
-            set
-            {
-                valor_a = value;
-            }
-        }
-        public double Valor_b { get => valor_b; set => valor_b = value; }
+        //Accesores
         public double Resultado { get => resultado; set => resultado = value; }
         public List<double> Memoria { get => memoria; set => memoria = value; }
 
-
+        //Metodos
         private void Interface_Calculadora_Load(object sender, EventArgs e)
         {
-            rtb_ingresar.NumberUpDown(true);
+
         }
 
         public void Refrescar_Opciones()
@@ -82,7 +66,18 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                rtb_ingresar.Text += "1";
+
+                rtb_ingresar.Text += '1';
+                switch(valor_ab)
+                {
+                    case true:
+                        Programa_Calculadora.Cambiar_Valor_A('1');
+                        return;
+
+                    case false:
+                        Programa_Calculadora.Cambiar_Valor_B('1');
+                        return;
+                }
             }
             catch(Exception ex)
             {
@@ -93,7 +88,17 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                rtb_ingresar.Text += "2";
+                rtb_ingresar.Text += '2';
+                switch (valor_ab)
+                {
+                    case true:
+                        Programa_Calculadora.Cambiar_Valor_A('2');
+                        return;
+
+                    case false:
+                        Programa_Calculadora.Cambiar_Valor_B('2');
+                        return;
+                }
             }
             catch (Exception ex)
             {
@@ -104,7 +109,17 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                rtb_ingresar.Text += "3";
+                rtb_ingresar.Text += '3';
+                switch (valor_ab)
+                {
+                    case true:
+                        Programa_Calculadora.Cambiar_Valor_A('3');
+                        return;
+
+                    case false:
+                        Programa_Calculadora.Cambiar_Valor_B('3');
+                        return;
+                }
             }
             catch (Exception ex)
             {
@@ -115,7 +130,17 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                rtb_ingresar.Text += "4";
+                rtb_ingresar.Text += '4';
+                switch (valor_ab)
+                {
+                    case true:
+                        Programa_Calculadora.Cambiar_Valor_A('4');
+                        return;
+
+                    case false:
+                        Programa_Calculadora.Cambiar_Valor_B('4');
+                        return;
+                }
             }
             catch (Exception ex)
             {
@@ -126,7 +151,17 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                rtb_ingresar.Text += "5";
+                rtb_ingresar.Text += '5';
+                switch (valor_ab)
+                {
+                    case true:
+                        Programa_Calculadora.Cambiar_Valor_A('5');
+                        return;
+
+                    case false:
+                        Programa_Calculadora.Cambiar_Valor_B('5');
+                        return;
+                }
             }
             catch (Exception ex)
             {
@@ -137,7 +172,17 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                rtb_ingresar.Text += "6";
+                rtb_ingresar.Text += '6';
+                switch (valor_ab)
+                {
+                    case true:
+                        Programa_Calculadora.Cambiar_Valor_A('6');
+                        return;
+
+                    case false:
+                        Programa_Calculadora.Cambiar_Valor_B('6');
+                        return;
+                }
             }
             catch (Exception ex)
             {
@@ -148,7 +193,17 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                rtb_ingresar.Text += "7";
+                rtb_ingresar.Text += '7';
+                switch (valor_ab)
+                {
+                    case true:
+                        Programa_Calculadora.Cambiar_Valor_A('7');
+                        return;
+
+                    case false:
+                        Programa_Calculadora.Cambiar_Valor_B('7');
+                        return;
+                }
             }
             catch (Exception ex)
             {
@@ -159,7 +214,17 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                rtb_ingresar.Text += "8";
+                rtb_ingresar.Text += '8';
+                switch (valor_ab)
+                {
+                    case true:
+                        Programa_Calculadora.Cambiar_Valor_A('8');
+                        return;
+
+                    case false:
+                        Programa_Calculadora.Cambiar_Valor_B('8');
+                        return;
+                }
             }
             catch (Exception ex)
             {
@@ -170,7 +235,17 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                rtb_ingresar.Text += "9";
+                rtb_ingresar.Text += '9';
+                switch (valor_ab)
+                {
+                    case true:
+                        Programa_Calculadora.Cambiar_Valor_A('9');
+                        return;
+
+                    case false:
+                        Programa_Calculadora.Cambiar_Valor_B('9');
+                        return;
+                }
             }
             catch (Exception ex)
             {
@@ -181,7 +256,17 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                rtb_ingresar.Text += "0";
+                rtb_ingresar.Text += '0';
+                switch (valor_ab)
+                {
+                    case true:
+                        Programa_Calculadora.Cambiar_Valor_A('0');
+                        return;
+
+                    case false:
+                        Programa_Calculadora.Cambiar_Valor_B('0');
+                        return;
+                }
             }
             catch (Exception ex)
             {
@@ -196,6 +281,16 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
                 if(!fraccion_control)
                 {
                     rtb_ingresar.Text += fraccion;
+                    switch (valor_ab)
+                    {
+                        case true:
+                            Programa_Calculadora.Cambiar_Valor_A(fraccion);
+                            return;
+
+                        case false:
+                            Programa_Calculadora.Cambiar_Valor_B(fraccion);
+                            return;
+                    }
                     fraccion_control = true;
                 }
                 else
@@ -209,21 +304,19 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
             }
         }
         //BOTONES OPERACIONES
+        private void Defecto_Boton_Operacion()
+        {
+            valor_ab = false;
+            rtb_ingresar.Clear();
+        }
+        //
         private void Click_Suma(object sender, EventArgs e)
         {
             try
             {
-                if(double.TryParse(rtb_ingresar.Text, out double result))
-                {
-                    Programa_Calculadora.Cambiar_Operacion(Programa_Calculadora.Enum_Operacion.Suma);
-                    Programa_Calculadora.Cambiar_Valor_A(valor_a);
-                }
-                else
-                {
-                    throw new Exception("El numero ingresado no es valido");
-                }
-
-
+                Defecto_Boton_Operacion();
+                Programa_Calculadora.Cambiar_Operacion(Enum_Operacion.Suma);
+                Console.WriteLine(" Suma"); // TEST
             }
             catch(Exception ex)
             {
@@ -234,8 +327,8 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                Programa_Calculadora.Operacion = Programa_Calculadora.Enum_Operacion.Resta;
-                Programa_Calculadora.Valor_a = valor_a;
+                Defecto_Boton_Operacion();
+                Programa_Calculadora.Operacion = Enum_Operacion.Resta;
             }
             catch (Exception ex)
             {
@@ -246,21 +339,20 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                Programa_Calculadora.Operacion = Programa_Calculadora.Enum_Operacion.Multiplicacion;
-                Programa_Calculadora.Valor_a = valor_a;
+                Defecto_Boton_Operacion();
+                Programa_Calculadora.Operacion = Enum_Operacion.Multiplicacion;
             }
             catch (Exception ex)
             {
                 throw new Exception("Error calculadora metodo Click_Multiplicacion" + ex);
             }
         }
-
         private void Click_Division(object sender, EventArgs e)
         {
             try
             {
-                Programa_Calculadora.Operacion = Programa_Calculadora.Enum_Operacion.Division;
-                Programa_Calculadora.Valor_a = valor_a;
+                Defecto_Boton_Operacion();
+                Programa_Calculadora.Operacion = Enum_Operacion.Division;
             }
             catch (Exception ex)
             {
@@ -272,8 +364,8 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                Programa_Calculadora.Operacion = Programa_Calculadora.Enum_Operacion.Elevar;
-                Programa_Calculadora.Valor_a = valor_a;
+                Defecto_Boton_Operacion();
+                Programa_Calculadora.Operacion = Enum_Operacion.Elevar;
             }
             catch (Exception ex)
             {
@@ -285,8 +377,8 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                Programa_Calculadora.Operacion = Programa_Calculadora.Enum_Operacion.Raiz;
-                Programa_Calculadora.Valor_a = valor_a;
+                Defecto_Boton_Operacion();
+                Programa_Calculadora.Operacion = Enum_Operacion.Raiz;
             }
             catch (Exception ex)
             {
@@ -297,90 +389,108 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
         {
             try
             {
-                Programa_Calculadora.Operacion = Programa_Calculadora.Enum_Operacion.Porcentaje;
-                Programa_Calculadora.Valor_a = valor_a;
+                Defecto_Boton_Operacion();
+                Programa_Calculadora.Operacion = Enum_Operacion.Porcentaje;
             }
             catch (Exception ex)
             {
                 throw new Exception("Error calculadora metodo Click_Porcentaje" + ex);
             }
         }
+        //
         private void Click_Derivacion(object sender, EventArgs e)
         {
             try
             {
-                Programa_Calculadora.Operacion = Programa_Calculadora.Enum_Operacion.Derivacion;
-                Programa_Calculadora.Valor_a = valor_a;
+                Defecto_Boton_Operacion();
+                Programa_Calculadora.Operacion = Enum_Operacion.Derivacion;
             }
             catch (Exception ex)
             {
                 throw new Exception("Error calculadora metodo Click_Derivacion" + ex);
             }
         }
-
         private void Click_Integracion(object sender, EventArgs e)
         { 
             try
             {
-                Programa_Calculadora.Operacion = Programa_Calculadora.Enum_Operacion.Integracion;
-                Programa_Calculadora.Valor_a = valor_a;
+                Defecto_Boton_Operacion();
+                Programa_Calculadora.Operacion = Enum_Operacion.Integracion;
             }
             catch (Exception ex)
             {
                 throw new Exception("Error calculadora metodo Click_Integracion" + ex);
             }
         }
-
+        //
+        private void Defecto_Boton_Resultado()
+        {
+            Console.Write(" " + Programa_Calculadora.Obtener_Valor_A());
+            Console.Write(" [?] ");
+            Console.WriteLine(Programa_Calculadora.Obtener_Valor_B());
+        }
         private void Click_Boton_Resultado(object sender, EventArgs e)
         {
             try
             {
-                switch (operacion)
+                Defecto_Boton_Resultado();
+
+                switch (Programa_Calculadora.Obtener_Operacion())
                 {
-                    case Operacion.Suma:
-                        resultado = Programa_Calculadora.Sumar(valor_a, valor_b);
-                        return;
-
-                    case Operacion.Resta:
-                        resultado = Programa_Calculadora.Restar(valor_a, valor_b);
-                        return;
-
-                    case Operacion.Multiplicacion:
-                        resultado = Programa_Calculadora.Multiplicar(valor_a, valor_b);
-                        return;
-
-                    case Operacion.Division:
-                        resultado = Programa_Calculadora.Dividir(valor_a, valor_b);
-                        return;
-
-                    case Operacion.Raiz:
-                       
-                        return;
-
-                    case Operacion.Residuo:
-                        resultado = Programa_Calculadora.Residuo(valor_a, valor_b);
-                        return;
-
-                    case Operacion.Porcentaje:
-                        resultado = Programa_Calculadora.Porcentaje(valor_a, valor_b);
-                        return;
-
-                    case Operacion.Integracion:
-                        resultado = Programa_Calculadora.Integra(valor_a, valor_b);
-                        return;
-
-                    case Operacion.Elevar:
-                        return;
-
                     default:
-                        throw new Exception("No se selecciono operaciones");
-                }
+                        throw new Exception("No se selecciono ninguna operacion");
 
+                    case Enum_Operacion.Suma:
+                        rtb_ingresar.Text = (Programa_Calculadora.Sumar(Programa_Calculadora.Obtener_Valor_A(), Programa_Calculadora.Obtener_Valor_B())).ToString();
+                        rtb_historial.Text = Programa_Calculadora.Obtener_Ultima_Memoria()[0].ToString() + " - " + Programa_Calculadora.Obtener_Ultima_Memoria()[1].ToString();
+
+
+                        Console.WriteLine(" = " + rtb_ingresar.Text);
+                        return;
+
+                    case Enum_Operacion.Resta:
+                        rtb_ingresar.Text = (Programa_Calculadora.Restar(Programa_Calculadora.Obtener_Valor_A(), Programa_Calculadora.Obtener_Valor_B())).ToString();
+                        return;
+
+                    case Enum_Operacion.Multiplicacion:
+                        rtb_ingresar.Text = (Programa_Calculadora.Multiplicar(Programa_Calculadora.Obtener_Valor_A(), Programa_Calculadora.Obtener_Valor_B())).ToString();
+                        return;
+
+                    case Enum_Operacion.Division:
+                        rtb_ingresar.Text = (Programa_Calculadora.Dividir(Programa_Calculadora.Obtener_Valor_A(), Programa_Calculadora.Obtener_Valor_B())).ToString();
+                        return;
+
+                    case Enum_Operacion.Raiz:
+                        rtb_ingresar.Text = (Programa_Calculadora.Radicar(Programa_Calculadora.Obtener_Valor_A(), Programa_Calculadora.Obtener_Valor_B())).ToString();
+                        return;
+
+                    case Enum_Operacion.Residuo:
+                        rtb_ingresar.Text = (Programa_Calculadora.Residuar(Programa_Calculadora.Obtener_Valor_A(), Programa_Calculadora.Obtener_Valor_B())).ToString();
+                        return;
+
+                    case Enum_Operacion.Porcentaje:
+                        rtb_ingresar.Text = (Programa_Calculadora.Porcentuar(Programa_Calculadora.Obtener_Valor_A(), Programa_Calculadora.Obtener_Valor_B())).ToString();
+                        return;
+
+                    case Enum_Operacion.Elevar:
+                        rtb_ingresar.Text = (Programa_Calculadora.Potenciar(Programa_Calculadora.Obtener_Valor_A(), Programa_Calculadora.Obtener_Valor_B())).ToString();
+                        return;
+
+                    case Enum_Operacion.Derivacion:
+                        rtb_ingresar.Text = (Programa_Calculadora.Derivar("Falta")).ToString();
+                        return;
+
+                    case Enum_Operacion.Integracion:
+                        rtb_ingresar.Text = (Programa_Calculadora.Integrar("Falta")).ToString();
+                        return;                   
+                }
             }
             catch (Exception ex)
             {
                 throw new Exception("Error calculadora metodo Click_Boton_Resultado" + ex);
             }
         }
+
+
     }
 }

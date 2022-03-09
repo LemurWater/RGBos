@@ -1,6 +1,6 @@
 ﻿namespace RGB.ClasesSistema.Programas.Utilidades
 {
-    partial class Interface_Calculadora
+    partial class Interface_Prog_Calculadora
     {
         /// <summary>
         /// Required designer variable.

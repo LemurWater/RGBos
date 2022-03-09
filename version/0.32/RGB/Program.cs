@@ -29,7 +29,7 @@ namespace RGB
 
         public static List<Usuario> l_usuarios = new List<Usuario>();
         //Control
-        static string version = "Ver 0.17g";
+        static string version = "Ver 0.31g";
 
 
         static string[] test = { "aaaaaaaaaaaaaa", "bbbbbbbbbbbbbb" };

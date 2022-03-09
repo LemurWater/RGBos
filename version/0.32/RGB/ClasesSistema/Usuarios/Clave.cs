@@ -14,7 +14,7 @@ namespace RGB.ClasesSistema.Usuarios
 
         public Clave()
         {
-            clave_colores.Add(new List<Clave_Colores> { Clave_Colores.Rojo, Clave_Colores.Verde, Clave_Colores.Azul });
+            //clave_colores.Add(new List<Clave_Colores> { Clave_Colores.Rojo, Clave_Colores.Verde, Clave_Colores.Azul });
         }
         public Clave(string clave_texto, List<List<Clave_Colores>> clave_colores)
         {

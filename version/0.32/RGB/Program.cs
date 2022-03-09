@@ -57,13 +57,13 @@ namespace RGB
 
 
 
-                //Inicio.Imprimir();
+                Inicio.Imprimir();
                 //RGB.Prueba.Prueba_Juego prueba_juego = new RGB.Prueba.Prueba_Juego();
                 //Interface_Prog_Texto prueba = new Interface_Prog_Texto();
                 Interface_Prog_Calculadora prueba = new Interface_Prog_Calculadora();
                 RGB.ClasesSistema.Programas.Utilidades.Interface_Prog_Texto probar_p_texto = 
                     new RGB.ClasesSistema.Programas.Utilidades.Interface_Prog_Texto();
-                prueba.ShowDialog();
+                //prueba.ShowDialog();
 
 
 
@@ -80,6 +80,9 @@ namespace RGB
 
                 //ingresar.Correrr();
                 ingresar.Ingresar_Usuario(sistema.Cantidad_Usuarios());
+
+                Interface_Acceso interface_acceso = new Interface_Acceso();
+                interface_acceso.ShowDialog();
 
                 Console.ReadLine();
                 Marco(test);

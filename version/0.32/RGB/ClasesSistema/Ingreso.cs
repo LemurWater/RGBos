@@ -65,7 +65,7 @@ namespace RGB.ClasesSistema
 
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
-                Console.WriteLine("\nIngrese la contrasena");
+                Console.WriteLine("\nIngrese la contrasena (minimo: 3 digitos)");
 
                 Console.BackgroundColor = ConsoleColor.White;
                 Console.ForegroundColor = ConsoleColor.Black;

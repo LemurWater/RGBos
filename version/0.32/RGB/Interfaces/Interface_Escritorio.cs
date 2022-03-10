@@ -8,10 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using RGB.ClasesSistema.Programas.Utilidades;
+
 namespace RGB.Interfaces
 {
     public partial class Interface_Escritorio : Form
     {
+        private List<Program> l_programas;
         public Interface_Escritorio()
         {
             InitializeComponent();
@@ -39,6 +42,13 @@ namespace RGB.Interfaces
         private void Interface_Escritorio_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Interface_Prog_Calculadora interface_calculadora = new Interface_Prog_Calculadora();
+            this.Hide();
+            interface_calculadora.ShowDialog();
         }
     }
 }

@@ -41,6 +41,7 @@
             this.desarrolloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,9 +57,9 @@
             this.textoToolStripMenuItem,
             this.juegosToolStripMenuItem,
             this.desarrolloToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 807);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 805);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1390, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1390, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -68,7 +69,7 @@
             this.opcionesToolStripMenuItem,
             this.뮤Usuario뮤ToolStripMenuItem});
             this.inicioToolStripMenuItem.Name = "inicioToolStripMenuItem";
-            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
+            this.inicioToolStripMenuItem.Size = new System.Drawing.Size(86, 26);
             this.inicioToolStripMenuItem.Text = "🟥🟩🟦";
             // 
             // opcionesToolStripMenuItem
@@ -86,38 +87,38 @@
             // buscarToolStripMenuItem
             // 
             this.buscarToolStripMenuItem.Name = "buscarToolStripMenuItem";
-            this.buscarToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
+            this.buscarToolStripMenuItem.Size = new System.Drawing.Size(112, 26);
             this.buscarToolStripMenuItem.Text = "🔎Buscar 🔎";
             this.buscarToolStripMenuItem.Click += new System.EventHandler(this.buscarToolStripMenuItem_Click);
             // 
             // sistemaToolStripMenuItem
             // 
             this.sistemaToolStripMenuItem.Name = "sistemaToolStripMenuItem";
-            this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(117, 24);
+            this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(117, 26);
             this.sistemaToolStripMenuItem.Text = "💻Sistema💻";
             // 
             // archivosToolStripMenuItem
             // 
             this.archivosToolStripMenuItem.Name = "archivosToolStripMenuItem";
-            this.archivosToolStripMenuItem.Size = new System.Drawing.Size(121, 24);
+            this.archivosToolStripMenuItem.Size = new System.Drawing.Size(121, 26);
             this.archivosToolStripMenuItem.Text = "🗃️Archivos🗃️";
             // 
             // textoToolStripMenuItem
             // 
             this.textoToolStripMenuItem.Name = "textoToolStripMenuItem";
-            this.textoToolStripMenuItem.Size = new System.Drawing.Size(101, 24);
+            this.textoToolStripMenuItem.Size = new System.Drawing.Size(101, 26);
             this.textoToolStripMenuItem.Text = "📜Texto📜";
             // 
             // juegosToolStripMenuItem
             // 
             this.juegosToolStripMenuItem.Name = "juegosToolStripMenuItem";
-            this.juegosToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
+            this.juegosToolStripMenuItem.Size = new System.Drawing.Size(108, 26);
             this.juegosToolStripMenuItem.Text = "🕹️Juegos🕹️";
             // 
             // desarrolloToolStripMenuItem
             // 
             this.desarrolloToolStripMenuItem.Name = "desarrolloToolStripMenuItem";
-            this.desarrolloToolStripMenuItem.Size = new System.Drawing.Size(134, 24);
+            this.desarrolloToolStripMenuItem.Size = new System.Drawing.Size(134, 26);
             this.desarrolloToolStripMenuItem.Text = "⚙️Desarrollo⚙️";
             // 
             // label1
@@ -137,12 +138,25 @@
             // 
             this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Magenta;
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 10F);
+            this.button1.Location = new System.Drawing.Point(70, 142);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(70, 70);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "[Calc]";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Interface_Escritorio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1390, 835);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -170,5 +184,6 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.ToolStripMenuItem opcionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 뮤Usuario뮤ToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }

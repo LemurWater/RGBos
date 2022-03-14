@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using RGB.ClasesSistema.Usuarios;
 
-namespace RGB.Clases
+namespace RGB.ClasesSistema.Programas
 {
     public class Archivo
     {
@@ -18,7 +18,14 @@ namespace RGB.Clases
         private string informacion;
         private string notas;
 
-        public Archivo(short id, Usuario propietario, string nombre, DateTime fecha_creacion, DateTime fecha_edicion, string informacion, string notas)
+        private char icono = '*';
+        private char marco_vertical = '.', marco_horizontal = '.';
+        private char relleno = ' ';
+
+
+        //Constructores
+        public Archivo(short id, Usuario propietario, string nombre, DateTime fecha_creacion, DateTime fecha_edicion, 
+            string informacion, string notas, char icono, char relleno, char marco_vertical = default, char marco_horizontal = default)
         {
             Id = id;
             Propietario = propietario;
@@ -27,8 +34,48 @@ namespace RGB.Clases
             Fecha_edicion = fecha_edicion;
             Informacion = informacion;
             Notas = notas;
+
+            Icono = icono;
+            Marco_vertical = marco_vertical;
+            Marco_horizontal = marco_horizontal;
+            Relleno = relleno;
         }
 
+        //Metodos
+        public char Obtener_Marco_Vertical()
+        {
+            try
+            {
+                return Marco_vertical;
+            }
+            catch(Exception ex)
+            {
+                throw new Exception("Error Clase: Archivo - Metodo: Obtener_Marco_Vertical()" + ex);
+            }
+        }
+        public char Obtener_Marco_Horizontal()
+        {
+            try
+            {
+                return Marco_horizontal;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Clase: Archivo - Metodo: Obtener_Marco_Horizontal()" + ex);
+            }
+        }
+        public char Obtener_Char_Relleno()
+        {
+            try
+            {
+                return Relleno;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error Clase: Archivo - Metodo: Obtener_Char_Relleno()" + ex);
+            }
+        }
+        //Accesores
         public short Id
         {
             get
@@ -48,7 +95,7 @@ namespace RGB.Clases
             }
             set
             {
-                if(string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value))
+                if (string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value))
                 {
                     throw new Exception("Error al modificar el nombre del archivo: " + nombre);
                 }
@@ -72,8 +119,8 @@ namespace RGB.Clases
         }
         public DateTime Fecha_edicion
         {
-            get 
-            { 
+            get
+            {
                 return fecha_edicion;
             }
             set
@@ -88,7 +135,7 @@ namespace RGB.Clases
         public string Informacion
         {
             get
-            { 
+            {
                 return informacion;
             }
             set
@@ -105,16 +152,18 @@ namespace RGB.Clases
             get
             {
                 return notas;
-            } 
+            }
             set
             {
-                if(notas != null)
+                if (notas != null)
                 {
                     notas = value;
                 }
             }
         }
-        internal Usuario Propietario
+
+
+        public Usuario Propietario
         {
             get
             {
@@ -122,11 +171,16 @@ namespace RGB.Clases
             }
             set
             {
-                if(propietario != null)
+                if (propietario != null)
                 {
                     propietario = value;
                 }
             }
         }
+
+        public char Icono { get => icono; set => icono = value; }
+        public char Marco_vertical { get => marco_vertical; set => marco_vertical = value; }
+        public char Marco_horizontal { get => marco_horizontal; set => marco_horizontal = value; }
+        public char Relleno { get => relleno; set => relleno = value; }
     }
 }

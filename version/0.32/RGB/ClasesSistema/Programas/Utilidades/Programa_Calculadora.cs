@@ -38,6 +38,18 @@ namespace RGB.ClasesSistema.Programas.Utilidades
             return version;
         }
         //
+        public static bool Cambiar_Operacion(Enum_Operacion nueva_operacion)
+        {
+            try
+            {
+                Operacion = nueva_operacion;
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error en Clase: Programa_Calculadora  - Metodo: Cambiar_Operacion" + ex);
+            }
+        }
         public static bool Cambiar_Valor_A(char valor)
         {
             try
@@ -74,18 +86,6 @@ namespace RGB.ClasesSistema.Programas.Utilidades
             catch (Exception ex)
             {
                 throw new Exception("Error en Clase: Programa_Calculadora  - Metodo: Cambiar_Valor_A(string)" + ex);
-            }
-        }
-        public static bool Cambiar_Operacion(Enum_Operacion nueva_operacion)
-        {
-            try
-            {
-                Operacion = nueva_operacion;
-                return true;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception("Error en Clase: Programa_Calculadora  - Metodo: Cambiar_Operacion" + ex);
             }
         }
         public static bool Cambiar_Valor_A(double valor)
@@ -295,31 +295,33 @@ namespace RGB.ClasesSistema.Programas.Utilidades
                 throw new Exception("Error en Clase: Programa_Calculadora  - Metodo: Radicar" + ex);
             }
         }
-        public static double Derivar(string c)
+        public static string Derivar(string c)
         {
             try
             {
+                string tmp_string = "";
                 double fx = 0.0000000000000001;
                 // Resultado = [f(valor_c + fx) - f(valor_c)] / dx
                 List<string> tmp_valor = new List<string>() { "DERIV", Resultado.ToString() };
 
                 Memoria.Add(tmp_valor);
-                return Resultado;
+                return tmp_string;
             }
             catch (Exception ex)
             {
                 throw new Exception("Error en Clase: Programa_Calculadora  - Metodo: Derivar" + ex);
             }
         }
-        public static double Integrar(string c)
+        public static string Integrar(string c)
         {
             try
             {
+                string tmp_string = "";
                 double infinito = double.PositiveInfinity;
                 //Resultado = c;
                 List<string> tmp_valor = new List<string>() { "INTE", Resultado.ToString() };
                 Memoria.Add(tmp_valor);
-                return Resultado;
+                return tmp_string;
             }
             catch (Exception ex)
             {

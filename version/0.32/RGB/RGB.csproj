@@ -45,8 +45,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClasesSistema\Archivo.cs" />
     <Compile Include="ClasesSistema\Escritorio.cs" />
     <Compile Include="ClasesSistema\Inicio.cs" />
+    <Compile Include="ClasesSistema\Programas\Programa.cs" />
     <Compile Include="ClasesSistema\Programas\Utilidades\Interface_Calculadora.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +63,8 @@
     </Compile>
     <Compile Include="ClasesSistema\Programas\Utilidades\Programa_Calculadora.cs" />
     <Compile Include="ClasesSistema\Programas\Utilidades\Programa_Texto.cs" />
+    <Compile Include="ClasesSistema\Registros\Registro.cs" />
+    <Compile Include="ClasesSistema\Registros\Reg_Escritorio.cs" />
     <Compile Include="ClasesSistema\Sistema.cs" />
     <Compile Include="ClasesSistema\Usuarios\Avatar.cs" />
     <Compile Include="ClasesSistema\Usuarios\Clave.cs" />
@@ -78,9 +82,7 @@
     <Compile Include="Interfaces\Interface_Nuevo_Usuario.Designer.cs">
       <DependentUpon>Interface_Nuevo_Usuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="Clases\Archivo.cs" />
     <Compile Include="Clases\Idioma.cs" />
-    <Compile Include="Clases\Programa.cs" />
     <Compile Include="Interfaces\Interface_Acceso.cs">
       <SubType>Form</SubType>
     </Compile>

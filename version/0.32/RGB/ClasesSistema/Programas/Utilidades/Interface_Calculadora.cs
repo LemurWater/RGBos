@@ -35,11 +35,6 @@ namespace RGB.ClasesSistema.Programas.Utilidades //✓✓✓☑✓✓✓☑    �
             label_version.Text = "version " + version; 
         }
 
-        public Interface_Prog_Calculadora(double valor_a, double valor_b, double resultado, List<double> memoria)
-        {
-
-        }
-
         //Accesores
         public double Resultado { get => resultado; set => resultado = value; }
         public List<double> Memoria { get => memoria; set => memoria = value; }

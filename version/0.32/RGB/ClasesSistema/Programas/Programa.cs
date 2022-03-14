@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using RGB.ClasesSistema.Usuarios;
 
-namespace RGB.Clases
+namespace RGB.ClasesSistema.Programas
 {
     public class Programa
     {
@@ -76,7 +76,7 @@ namespace RGB.Clases
             }
             set
             {
-                if(Fecha_instalacion != null)
+                if (Fecha_instalacion != null)
                 {
                     fecha_instalacion = value;
                 }
@@ -106,7 +106,7 @@ namespace RGB.Clases
             }
             set
             {
-                if(string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value))
+                if (string.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value))
                 {
                     throw new Exception("Programa - Informacion = el texto de la informacion agregada no es valido");
                 }
@@ -140,4 +140,5 @@ namespace RGB.Clases
 
         internal List<Usuario> L_usuarios1 { get => l_usuarios; set => l_usuarios = value; }
     }
+
 }

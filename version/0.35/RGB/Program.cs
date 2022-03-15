@@ -17,18 +17,54 @@ using RGB.ClasesSistema.Programas.Utilidades;
 using RGB.ClasesSistema._Complementario;
 
 
+using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using System.Runtime.InteropServices;
+
+//[DllImport("user32.dll", EntryPoint = "SetWindowPos")]
+[DllImport("kernel32.dll", ExactSpelling = true)]
 namespace RGB
 {
     internal class Program
     {
+
+
+
+
+
+
+
+
+
+
+
+
         //Enums
         public enum Tipo_Mensaje { Sistema, Error, Acciones, Resaltado, Normal };
 
         //Sistema
-       // public static Complementario complementario = new Complementario(); 
+        const int SWP_NOSIZE = 0x0001;
+
+
+
+        [System.Runtime.InteropServices.DllImport("kernel32.dll")]
+        private static extern bool AllocConsole();
+
+        [DllImport("user32.dll", EntryPoint = "SetWindowPos")]
+        public static extern IntPtr SetWindowPos(IntPtr hWnd, int hWndInsertAfter, int x, int Y, int cx, int cy, int wFlags);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        public static extern IntPtr GetConsoleWindow();
+        private static IntPtr MyConsole = GetConsoleWindow();
+
+
+
+        // public static Complementario complementario = new Complementario(); 
 
         public static Ingreso ingresar = new Ingreso();
-   
+
 
         public static List<Usuario> l_usuarios = new List<Usuario>();
         //Control
@@ -49,10 +85,29 @@ namespace RGB
         static Interface_Nuevo_Usuario form_n_usuario = new Interface_Nuevo_Usuario();
         static bool crear_n_usuario = true;
 
+
+        [STAThread]
         static void Main(string[] args)
         {
             try
             {
+                //Cargar
+
+                AllocConsole();
+                IntPtr MyConsole = GetConsoleWindow();
+                int xpos = 1024;
+                int ypos = 0;
+                SetWindowPos(MyConsole, 0, xpos, ypos, 0, 0, SWP_NOSIZE);
+                Console.WindowLeft = 0;
+                Console.WriteLine("text in my console");
+
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+
+
+
+
+
                 //Pantalla de inicio (Consola)
 
 
@@ -64,7 +119,7 @@ namespace RGB
                 //RGB.Prueba.Prueba_Juego prueba_juego = new RGB.Prueba.Prueba_Juego();
                 //Interface_Prog_Texto prueba = new Interface_Prog_Texto();
                 Interface_Prog_Calculadora prueba = new Interface_Prog_Calculadora();
-                RGB.ClasesSistema.Programas.Utilidades.Interface_Prog_Texto probar_p_texto = 
+                RGB.ClasesSistema.Programas.Utilidades.Interface_Prog_Texto probar_p_texto =
                     new RGB.ClasesSistema.Programas.Utilidades.Interface_Prog_Texto();
                 //prueba.ShowDialog();
 
@@ -97,12 +152,6 @@ namespace RGB
                 throw new Exception("Error CLASE Programa - METODO Main" + e);
             }
         }
-        //
-
-        private void guardar_acciones(string texto)
-        {
-
-        }
 
         private static void Version()
         {
@@ -123,7 +172,7 @@ namespace RGB
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.White;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw new Exception("Error CLASE Programa - METODO Versis() + " + ex);
             }
@@ -145,7 +194,7 @@ namespace RGB
                 Console.BackgroundColor = tmp_fondo;
                 Console.ForegroundColor = tmp_texto;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw new Exception("Error CLASE Programa - METODO Mensaje_Del_Sistema(string) + " + ex);
             }
@@ -173,7 +222,7 @@ namespace RGB
                         return;
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw new Exception("Error CLASE Programa - METODO Mensaje_Del_Sistema(Tipo_Mensaje) + " + ex);
             }
@@ -235,11 +284,25 @@ namespace RGB
             {
                 return Complementario.Obtener_Usuario_Bloqueo_Intentos();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw new Exception("Error CLASE Programa - METODO Cantidad_Intentos() + " + ex);
             }
         }
 
+
+
+
+        public static byte Cantidad_Intentos()
+    {
+        try
+        {
+            return Complementario.Obtener_Usuario_Bloqueo_Intentos();
+        }
+        catch (Exception ex)
+        {
+            throw new Exception("Error CLASE Programa - METODO Cantidad_Intentos() + " + ex);
+        }
     }
+
 }

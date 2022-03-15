@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 using RGB.Prueba;
 
+using System.Windows.Forms;
+
 namespace RGB.ClasesSistema
 {
     public class Inicio
@@ -16,6 +18,8 @@ namespace RGB.ClasesSistema
 
         public static void Imprimir()
         {
+
+
             try
             {
                 switch (image)

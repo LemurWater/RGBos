@@ -61,11 +61,14 @@ namespace RGB.Interfaces
         }
 
         private void Interface_Default_Load(object sender, EventArgs e)
-        {
-            cargar_imagen();
+        {           
             try
             {
-
+                //
+                cargar_imagen();
+                //               
+                Location = new Point((Screen.PrimaryScreen.Bounds.Width / 2) - (Size.Width / 2) + 5, (Screen.PrimaryScreen.Bounds.Height / 2) - (Size.Height / 2) - 35);
+                Console.SetWindowPosition(Location.X, Location.Y);
             }
             catch(Exception ex)
             {
@@ -83,11 +86,12 @@ namespace RGB.Interfaces
 
                     MessageBox.Show("   🟥🟩🟦\n\n Bienvenido " + Program.l_usuarios[0].Nombre + "❗\n\n   🟥🟩🟦");
 
+                    Hide();
                     Complementario.Usar_Escritorio();
                 }
                 else
                 {
-                    MessageBox.Show("La clave no es valida - INTENTOS: " +  Program.Cantidad_Intentos() + "/" + Complementario.Obtener_Usuario_Bloqueo_Intentos());
+                    MessageBox.Show("La clave no es valida - INTENTOS: " + Programa.Cantidad_Intentos() + "/" + Complementario.Obtener_Usuario_Bloqueo_Intentos());
                 }
             }
             catch(Exception ex)

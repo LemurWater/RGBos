@@ -52,7 +52,7 @@ namespace RGB.Interfaces
             try
             {
                 ShowDialog();
-                v
+                return true;
             }
             catch (Exception ex)
             {

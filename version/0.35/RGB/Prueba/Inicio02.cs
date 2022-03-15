@@ -14,6 +14,9 @@ namespace RGB.Prueba
 
 
             Console.SetWindowSize(154, 28);
+
+            Console.SetWindowPosition(-800, -500); //Screen.PrimaryScreen.Bounds.Height / 2, Screen.PrimaryScreen.Bounds.Width / 2
+
             foreach (char ch in txt_logo)
             {
                 switch (ch)

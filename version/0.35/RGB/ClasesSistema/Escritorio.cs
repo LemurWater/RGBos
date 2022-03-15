@@ -60,106 +60,30 @@ namespace RGB.ClasesSistema
             try
             {
                 Program.Mensaje_Del_Sistema("Escritorio");
-
+                Mostrar_Iconos();
                 //Forms
                 if (crear_escritorio)
                 {
                     form_escritorio.ShowDialog();
                     crear_escritorio = false;
-                }
-                Mostrar_Escritorio();
-                //               
+                }             
             }
             catch (Exception ex)
             {
                 throw new Exception("Error metodo usar_escritorio " + ex);
             }
         }
-        public void Mostrar_Escritorio()
-        {
+
+        public bool Mostrar_Iconos()
+        {   
             try
             {
-                byte tamano_consola_x = 10;
-                byte tamano_consola_y = 5;
-                byte _coordenada = 0;
-
-                for (int i = 0; i< tamano_consola_x; i++)
-                {
-                    Console.Write("|" + _coordenada);
-                }
-                Console.Write("|");
-
-                //Mostrar_Iconos()
+                Console.WriteLine(" 1 2 3 4 5 6");
+                return true;
             }
             catch (Exception ex)
             {
-                throw new Exception("Error Clase: Escritorio - Metodo: Mostrar_Escritorio() " + ex);
-            }
-        }
-        public void Mostrar_Iconos()
-        {
-            byte _control_x, _control_y;
-            switch (tamano_fijo)
-            {
-                case true:
-                    {
-                        _control_x = tamano_fijo_x;
-                        _control_y = tamano_fijo_y;
-                        break;
-                    }
-                case false:
-                    {
-                        _control_x = tamano_variable_x;
-                        _control_y = tamano_variable_y;
-                        break;
-                    }
-
-                    byte _index = 0;
-
-                    for (int x = 1; x <= _control_x; x++)
-                    {
-                        for (int y = 1; y <= _control_y; y++)
-                        {
-
-                            if (tamano_icono_x != 1)
-                            {
-
-                                for (int i = 0; i < (tamano_icono_y); i++)
-                                {
-                                    for (int j = 0; j < tamano_icono_x; j++)
-                                    {
-                                        if (i == 0 && j == 0)
-                                        {
-                                            Console.Write(_index);
-                                        }
-                                        else if (i == 0 && j != 0 || i == tamano_icono_y && j != 0)
-                                        {
-                                            Console.Write(L_archivos[_index].Obtener_Marco_Vertical());
-                                        }
-                                        else if (i != 0 && j == 0 || i != 0 && j == tamano_icono_x)
-                                        {
-                                            Console.Write(L_archivos[_index].Obtener_Marco_Horizontal());
-                                        }
-                                        else
-                                        {
-                                            Console.Write(L_archivos[_index].Obtener_Char_Relleno());
-                                        }
-                                    }
-                                    Console.WriteLine();
-                                }
-                            }
-                            else
-                            {
-                                for (int i = 0; i < tamano_icono_x; i++)
-                                {
-                                    Console.Write(l_archivos[_index]);
-                                    _index++;
-                                }
-                            }
-
-
-                        }
-                    }
+                throw new Exception("Error Clase: Escritorio - Metodo: Mostrar_Iconos() " + ex);
             }
         }
         //

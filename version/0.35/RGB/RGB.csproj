@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClasesSistema\Accion.cs" />
     <Compile Include="ClasesSistema\Escritorio.cs" />
     <Compile Include="ClasesSistema\Inicio.cs" />
     <Compile Include="ClasesSistema\Programas\Archivo.cs" />

@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using RGB.ClasesSistema.Programas.Utilidades;
 using RGB.ClasesSistema.Programas;
 
+
 namespace RGB.Interfaces
 {
     public partial class Interface_Escritorio : Form
@@ -21,6 +22,10 @@ namespace RGB.Interfaces
             InitializeComponent();
         }
 
+        private void Interface_Escritorio_Load(object sender, EventArgs e)
+        {            
+            Location = new Point(Screen.PrimaryScreen.Bounds.Width - Size.Width +5, Screen.PrimaryScreen.Bounds.Height - Size.Height - 35);
+        }
         private void buscarToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -38,11 +43,6 @@ namespace RGB.Interfaces
                 toolTip1.Show("Water_Lemur; SoftWorks®", label1);
             }
             catch (Exception ex) { throw new Exception("Error metodo label1_MouseHover " + ex); }
-        }
-
-        private void Interface_Escritorio_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -1,0 +1,5 @@
+-----------
+---RGBos---
+-----------
+:USUARIO
+Nombre, Clave, Avatar, Bloqueo intentos, Informacion, Notas

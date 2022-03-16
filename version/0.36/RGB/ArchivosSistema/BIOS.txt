@@ -1,0 +1,7 @@
+-----------
+---RGBos---
+-----------
+#BIOS
+Mostrar_Interface=no.
+Usar_Colores=si.
+Mensajes_Del_Sistema=si.

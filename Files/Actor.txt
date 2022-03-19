@@ -1,0 +1,17 @@
+Velocidad.Vertical
+Velocidad.Horizontal
+
+Tamano.Ancho
+Tamano.Largo
+
+Puntos.Vida
+Puntos.Mana
+Puntos.Etc
+
+Imagen.img
+
+Imagen.Animacion
+Imagen.Animacion.PrimerFrame
+Imagen.Animacion.UltimoFrame
+
+Acciones.List<Accion>

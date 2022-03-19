@@ -46,10 +46,38 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClasesSistema\Accion.cs" />
+    <Compile Include="ClasesSistema\Color.cs" />
+    <Compile Include="ClasesSistema\Color_Texto.cs" />
     <Compile Include="ClasesSistema\Escritorio.cs" />
     <Compile Include="ClasesSistema\Inicio.cs" />
     <Compile Include="ClasesSistema\Programas\Archivo.cs" />
+    <Compile Include="ClasesSistema\Programas\Desarrollos\Desarrollo.cs" />
+    <Compile Include="ClasesSistema\Programas\Desarrollos\IntDesarrollo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClasesSistema\Programas\Desarrollos\IntDesarrollo.Designer.cs">
+      <DependentUpon>IntDesarrollo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClasesSistema\Programas\Juegos\IntJuego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClasesSistema\Programas\Juegos\IntJuego.Designer.cs">
+      <DependentUpon>IntJuego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClasesSistema\Programas\Juegos\Juego.cs" />
     <Compile Include="ClasesSistema\Programas\Programa.cs" />
+    <Compile Include="ClasesSistema\Programas\Utilidades\IntCalculadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClasesSistema\Programas\Utilidades\IntCalculadora.Designer.cs">
+      <DependentUpon>IntCalculadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClasesSistema\Programas\Utilidades\IntEditor_Texto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClasesSistema\Programas\Utilidades\IntEditor_Texto.Designer.cs">
+      <DependentUpon>IntEditor_Texto.cs</DependentUpon>
+    </Compile>
     <Compile Include="ClasesSistema\Programas\Utilidades\Interface_Calculadora.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +101,43 @@
     <Compile Include="ClasesSistema\Usuarios\Clave_Colores.cs" />
     <Compile Include="ClasesSistema\Usuarios\Usuario.cs" />
     <Compile Include="ClasesSistema\_Complementario\Complementario.cs" />
+    <Compile Include="ClasesSistema\_Complementario\Complementari_.cs" />
+    <Compile Include="ClasesSistema\_Complementario\IntComplementario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClasesSistema\_Complementario\IntComplementario.Designer.cs">
+      <DependentUpon>IntComplementario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClasesSistema\_Complementario\IntComplementari_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClasesSistema\_Complementario\IntComplementari_.Designer.cs">
+      <DependentUpon>IntComplementari_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\ConAcceso.cs" />
+    <Compile Include="Interfaces\ConClave.cs" />
+    <Compile Include="Interfaces\ConEditor_Texto.cs" />
+    <Compile Include="Interfaces\ConEscritorio.cs" />
+    <Compile Include="Interfaces\ConInterface.cs" />
+    <Compile Include="Interfaces\ConNuevo_Usuario.cs" />
+    <Compile Include="Interfaces\IntAcceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IntAcceso.Designer.cs">
+      <DependentUpon>IntAcceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IntClave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IntClave.Designer.cs">
+      <DependentUpon>IntClave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\Interface.Designer.cs">
+      <DependentUpon>Interface.cs</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\Interface_Clave.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +162,18 @@
     </Compile>
     <Compile Include="Interfaces\Interface_Escritorio.Designer.cs">
       <DependentUpon>Interface_Escritorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IntEscritorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IntEscritorio.Designer.cs">
+      <DependentUpon>IntEscritorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IntNuevo_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interfaces\IntNuevo_Usuario.Designer.cs">
+      <DependentUpon>IntNuevo_Usuario.cs</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\_Interface_Defecto.cs">
       <SubType>Form</SubType>
@@ -158,8 +235,6 @@
   <ItemGroup>
     <Folder Include="ArchivosSistema\" />
     <Folder Include="Archivos\" />
-    <Folder Include="ClasesSistema\Programas\Desarrollo\" />
-    <Folder Include="ClasesSistema\Programas\Juegos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

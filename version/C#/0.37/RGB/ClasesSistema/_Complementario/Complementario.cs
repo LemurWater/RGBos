@@ -12,7 +12,7 @@ using System.IO;
 
 namespace RGB.ClasesSistema._Complementario
 {
-    public static class Complementario //falta
+    public static class Complementario // Leer valores de Python //falta
     {
         //Atributos
         private static List<Usuario> l_usuarios = new List<Usuario>();

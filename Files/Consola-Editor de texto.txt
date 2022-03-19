@@ -1,0 +1,5 @@
+Leer comando consola: #
+EJ: 
+#R Apagar
+#G Usuario.Nombre
+#B 

@@ -1,6 +1,6 @@
 ﻿namespace RGB.Interfaces
 {
-    partial class Interface
+    partial class _Interface_Defecto
     {
         /// <summary>
         /// Required designer variable.
@@ -28,37 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label_nombre = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // label_nombre
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(319, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "[Nombre]";
+            this.label_nombre.AutoSize = true;
+            this.label_nombre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label_nombre.Font = new System.Drawing.Font("Comic Sans MS", 32F);
+            this.label_nombre.ForeColor = System.Drawing.Color.White;
+            this.label_nombre.Location = new System.Drawing.Point(254, 24);
+            this.label_nombre.Name = "label_nombre";
+            this.label_nombre.Size = new System.Drawing.Size(273, 76);
+            this.label_nombre.TabIndex = 0;
+            this.label_nombre.Text = "[Nombre]";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(727, 425);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "[Version]";
-            // 
-            // Interface
+            // _Interface_Defecto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "Interface";
-            this.Text = "Interface";
+            this.Controls.Add(this.label_nombre);
+            this.Name = "_Interface_Defecto";
+            this.Text = "_Interface_Defecto";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -66,7 +59,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label_nombre;
     }
 }

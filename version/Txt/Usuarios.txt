@@ -1,0 +1,5 @@
+:USUARIOS:
+
+Red,,1,documentos/RGB/Usuarios/01,
+Green,,2,documentos/Usuarios/02,
+Blue,,3,documentos/Usuarios/03,

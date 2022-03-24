@@ -1,0 +1,38 @@
+Apariencias
+
+version
+:FUENTES:
+Fuente titulo
+fuente Texto: Comic Sans MS
+fuente version
+
+bool usa_texto de colores
+
+:TAMANOS: 
+tamano ventana[XY]
+Tamano texto
+
+:POSICIONES:
+Posicion Ventana[]
+Posicion titulo[]
+posicicion texto[]
+posicion imagenes[]
+posicion boton[]
+
+
+:COLORES:
+
+Color de fondo ventana,
+Color titulo
+color version
+color texto 
+
+:INTERFACE COMPLEMENTARIO:
+
+color fondo
+imagen fondo bool
+
+tamano imagen principal
+titulo
+texto
+

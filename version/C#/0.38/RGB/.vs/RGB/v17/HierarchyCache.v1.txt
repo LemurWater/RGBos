@@ -1,0 +1,233 @@
+﻿++Solution 'RGB' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:RGB.sln
+++RGB
+i:{00000000-0000-0000-0000-000000000000}:RGB
+++Properties
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\properties\
+++References
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:
+++Archivos
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\archivos\
+++ArchivosSistema
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\archivossistema\
+++Clases
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clases\
+++ClasesSistema
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\
+++_Complementario
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\_complementario\
+++Programas
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\
+++Desarrollo
+++Juegos
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\juegos\
+++Utilidades
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\
+++Interface_Calculadora.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\interface_calculadora.cs
+++Interface_Prog_Texto.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\interface_prog_texto.cs
+++Programa_Calculadora.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\programa_calculadora.cs
+++Programa_Texto.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\programa_texto.cs
+++Archivo.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\archivo.cs
+++Programa.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\programa.cs
+++Registros
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\registros\
+++Usuarios
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\usuarios\
+++Avatar.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\usuarios\avatar.cs
+++Caracteres_Avatar.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\usuarios\caracteres_avatar.cs
+++Clave.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\usuarios\clave.cs
+++Clave_Colores.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\usuarios\clave_colores.cs
+++Usuario.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\usuarios\usuario.cs
+++Accion.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\accion.cs
+++Escritorio.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\escritorio.cs
+++Ingreso.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\ingreso.cs
+++Inicio.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\inicio.cs
+++Sistema.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\sistema.cs
+++Interfaces
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\
+++_Interface_Defecto.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\_interface_defecto.cs
+++Interface_Acceso.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_acceso.cs
+++Interface_Clave.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_clave.cs
+++Interface_Escritorio.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_escritorio.cs
+++Interface_Nuevo_Usuario.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_nuevo_usuario.cs
+++Prueba
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\prueba\
+++Embeded_Games.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\prueba\embeded_games.cs
+++Inicio01.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\prueba\inicio01.cs
+++Inicio02.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\prueba\inicio02.cs
+++Inicio03.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\prueba\inicio03.cs
+++Prueba_Juego.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\prueba\prueba_juego.cs
+++App.config
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\app.config
+++Program.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\program.cs
+++AssemblyInfo.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\properties\assemblyinfo.cs
+++Microsoft.CSharp
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:
+++System
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:
+++System.Core
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:
+++System.Data
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:
+++System.Data.DataSetExtensions
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:
+++System.Drawing
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:
+++System.Net.Http
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:
+++System.Windows.Forms
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:
+++System.Xml
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:
+++System.Xml.Linq
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:
+++Idioma.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clases\idioma.cs
+++Complementario.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\_complementario\complementario.cs
+++Interface_Calculadora.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\interface_calculadora.designer.cs
+++Interface_Calculadora.resx
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\interface_calculadora.resx
+++Interface_Prog_Texto.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\interface_prog_texto.designer.cs
+++Interface_Prog_Texto.resx
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\interface_prog_texto.resx
+++Reg_Escritorio.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\registros\reg_escritorio.cs
+++Registro.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\registros\registro.cs
+++_Interface_Defecto.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\_interface_defecto.designer.cs
+++_Interface_Defecto.resx
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\_interface_defecto.resx
+++Interface_Acceso.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_acceso.designer.cs
+++Interface_Acceso.resx
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_acceso.resx
+++Interface_Clave.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_clave.designer.cs
+++Interface_Clave.resx
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_clave.resx
+++Interface_Escritorio.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_escritorio.designer.cs
+++Interface_Escritorio.resx
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_escritorio.resx
+++Interface_Nuevo_Usuario.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_nuevo_usuario.designer.cs
+++Interface_Nuevo_Usuario.resx
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface_nuevo_usuario.resx
+++Embeded_Games.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\prueba\embeded_games.designer.cs
+++Embeded_Games.resx
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\prueba\embeded_games.resx
+++Prueba_Juego.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\prueba\prueba_juego.designer.cs
+++Prueba_Juego.resx
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\prueba\prueba_juego.resx
+++Color_Texto.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\color_texto.cs
+++Color.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\color.cs
+++Interface.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface.cs
+++Interface.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\interface.designer.cs
+++ConInterface.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\coninterface.cs
+++IntAcceso.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\intacceso.cs
+++IntAcceso.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\intacceso.designer.cs
+++IntClave.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\intclave.cs
+++IntClave.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\intclave.designer.cs
+++IntEscritorio.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\intescritorio.cs
+++IntEscritorio.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\intescritorio.designer.cs
+++IntNuevo_Usuario.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\intnuevo_usuario.cs
+++IntNuevo_Usuario.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\intnuevo_usuario.designer.cs
+++IntNuevoUsuario.cs
+++IntNuevoUsuario.Designer.cs
+++ConInt_Clave.cs
+++ConInt_Acceso.cs
+++ConInt_Escritorio.cs
+++ConIn_NuevoUsuario.cs
+++InterfaceConsola.cs
+++NuevoUsuario.cs
+++NuevoUsuario.Designer.cs
+++ConEscritorio.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\conescritorio.cs
+++ConClave.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\conclave.cs
+++ConAcceso.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\conacceso.cs
+++ConNuevo_Usuario.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\connuevo_usuario.cs
+++ConEditor_Texto.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\interfaces\coneditor_texto.cs
+++IntCalculadora.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\intcalculadora.cs
+++IntCalculadora.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\intcalculadora.designer.cs
+++IntEditor_Texto.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\inteditor_texto.cs
+++IntEditor_Texto.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\utilidades\inteditor_texto.designer.cs
+++IntJuego.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\juegos\intjuego.cs
+++IntJuego.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\juegos\intjuego.designer.cs
+++NewFolder1
+++Juego.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\juegos\juego.cs
+++Desarrollos
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\desarrollos\
+++Desarrollo.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\desarrollos\desarrollo.cs
+++IntDesarrollo.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\desarrollos\intdesarrollo.cs
+++IntDesarrollo.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\programas\desarrollos\intdesarrollo.designer.cs
+++IntComplementario.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\_complementario\intcomplementario.cs
+++IntComplementario.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\_complementario\intcomplementario.designer.cs
+++Complementari_.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\_complementario\complementari_.cs
+++IntComplementari_.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\_complementario\intcomplementari_.cs
+++IntComplementari_.Designer.cs
+i:{e192df3b-d19f-425a-942a-7a5f41f5e7be}:x:\=projects github\github\version\c#\0.36\rgb\clasessistema\_complementario\intcomplementari_.designer.cs

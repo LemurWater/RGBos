@@ -1,0 +1,7 @@
+:USUARIOS:
+
+nombre,ultima coneccion,avatar,direccion_archivos,opciones_direcciontxt
+
+:opciones_direcciontxt:
+
+Texto

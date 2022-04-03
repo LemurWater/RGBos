@@ -1,0 +1,22 @@
+C:\Users\Alice\Downloads\bitmaptest4\BitMapTest\obj\Debug\BitMapTest.csproj.AssemblyReference.cache
+C:\Users\Alice\Downloads\bitmaptest4\BitMapTest\obj\Debug\BitMapTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alice\Downloads\bitmaptest4\BitMapTest\obj\Debug\BitMapTest.Form1.resources
+C:\Users\Alice\Downloads\bitmaptest4\BitMapTest\obj\Debug\BitMapTest.Properties.Resources.resources
+C:\Users\Alice\Downloads\bitmaptest4\BitMapTest\obj\Debug\BitMapTest.csproj.GenerateResource.cache
+C:\Users\Alice\Downloads\bitmaptest4\BitMapTest\obj\Debug\BitMapTest.csproj.CoreCompileInputs.cache
+C:\Users\Alice\Downloads\bitmaptest4\BitMapTest\bin\Debug\BitMapTest.exe.config
+C:\Users\Alice\Downloads\bitmaptest4\BitMapTest\bin\Debug\BitMapTest.exe
+C:\Users\Alice\Downloads\bitmaptest4\BitMapTest\bin\Debug\BitMapTest.pdb
+C:\Users\Alice\Downloads\bitmaptest4\BitMapTest\obj\Debug\BitMapTest.exe
+C:\Users\Alice\Downloads\bitmaptest4\BitMapTest\obj\Debug\BitMapTest.pdb
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\1\BitMapTest\bin\Debug\BitMapTest.exe.config
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\1\BitMapTest\bin\Debug\BitMapTest.exe
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\1\BitMapTest\bin\Debug\BitMapTest.pdb
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\1\BitMapTest\obj\Debug\BitMapTest.csproj.AssemblyReference.cache
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\1\BitMapTest\obj\Debug\BitMapTest.csproj.SuggestedBindingRedirects.cache
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\1\BitMapTest\obj\Debug\BitMapTest.Form1.resources
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\1\BitMapTest\obj\Debug\BitMapTest.Properties.Resources.resources
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\1\BitMapTest\obj\Debug\BitMapTest.csproj.GenerateResource.cache
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\1\BitMapTest\obj\Debug\BitMapTest.csproj.CoreCompileInputs.cache
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\1\BitMapTest\obj\Debug\BitMapTest.exe
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\1\BitMapTest\obj\Debug\BitMapTest.pdb

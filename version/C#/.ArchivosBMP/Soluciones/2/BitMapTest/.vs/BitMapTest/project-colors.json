@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "56fb1e44-7ab0-4a38-a37d-704567e7affa": {
+      "ProjectGuid": "56fb1e44-7ab0-4a38-a37d-704567e7affa",
+      "DisplayName": "BitMapTest",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

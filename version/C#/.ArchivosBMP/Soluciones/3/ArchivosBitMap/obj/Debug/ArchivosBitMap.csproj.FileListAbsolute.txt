@@ -1,0 +1,33 @@
+C:\Users\Alice\Downloads\ArchivosBitMap\ArchivosBitMap\bin\Debug\ArchivosBitMap.exe.config
+C:\Users\Alice\Downloads\ArchivosBitMap\ArchivosBitMap\bin\Debug\ArchivosBitMap.exe
+C:\Users\Alice\Downloads\ArchivosBitMap\ArchivosBitMap\bin\Debug\ArchivosBitMap.pdb
+C:\Users\Alice\Downloads\ArchivosBitMap\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.AssemblyReference.cache
+C:\Users\Alice\Downloads\ArchivosBitMap\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alice\Downloads\ArchivosBitMap\ArchivosBitMap\obj\Debug\ArchivosBitMap.Form1.resources
+C:\Users\Alice\Downloads\ArchivosBitMap\ArchivosBitMap\obj\Debug\ArchivosBitMap.Properties.Resources.resources
+C:\Users\Alice\Downloads\ArchivosBitMap\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.GenerateResource.cache
+C:\Users\Alice\Downloads\ArchivosBitMap\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.CoreCompileInputs.cache
+C:\Users\Alice\Downloads\ArchivosBitMap\ArchivosBitMap\obj\Debug\ArchivosBitMap.exe
+C:\Users\Alice\Downloads\ArchivosBitMap\ArchivosBitMap\obj\Debug\ArchivosBitMap.pdb
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\3\ArchivosBitMap\bin\Debug\ArchivosBitMap.exe.config
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\3\ArchivosBitMap\bin\Debug\ArchivosBitMap.exe
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\3\ArchivosBitMap\bin\Debug\ArchivosBitMap.pdb
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.AssemblyReference.cache
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.SuggestedBindingRedirects.cache
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.Form1.resources
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.Properties.Resources.resources
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.GenerateResource.cache
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.CoreCompileInputs.cache
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.exe
+X:\=Projects GitHub\GitHub\version\C#\ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.pdb
+X:\=Projects GitHub\GitHub\version\C#\.ArchivosBMP\Soluciones\3\ArchivosBitMap\bin\Debug\ArchivosBitMap.exe.config
+X:\=Projects GitHub\GitHub\version\C#\.ArchivosBMP\Soluciones\3\ArchivosBitMap\bin\Debug\ArchivosBitMap.exe
+X:\=Projects GitHub\GitHub\version\C#\.ArchivosBMP\Soluciones\3\ArchivosBitMap\bin\Debug\ArchivosBitMap.pdb
+X:\=Projects GitHub\GitHub\version\C#\.ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.AssemblyReference.cache
+X:\=Projects GitHub\GitHub\version\C#\.ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.SuggestedBindingRedirects.cache
+X:\=Projects GitHub\GitHub\version\C#\.ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.Properties.Resources.resources
+X:\=Projects GitHub\GitHub\version\C#\.ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.GenerateResource.cache
+X:\=Projects GitHub\GitHub\version\C#\.ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.csproj.CoreCompileInputs.cache
+X:\=Projects GitHub\GitHub\version\C#\.ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.exe
+X:\=Projects GitHub\GitHub\version\C#\.ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.pdb
+X:\=Projects GitHub\GitHub\version\C#\.ArchivosBMP\Soluciones\3\ArchivosBitMap\obj\Debug\ArchivosBitMap.Forms.LeerBmp.resources
